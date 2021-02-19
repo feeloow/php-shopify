@@ -124,6 +124,7 @@ use PHPShopify\Exception\SdkException;
  * @method CustomCollection CustomCollection(integer $id = null)
  * @method Customer Customer(integer $id = null)
  * @method CustomerSavedSearch CustomerSavedSearch(integer $id = null)
+ * @method DeprecatedApiCalls DeprecatedApiCalls()
  * @method Discount Discount(integer $id = null)
  * @method DraftOrder DraftOrder(integer $id = null)
  * @method DiscountCode DiscountCode(integer $id = null)

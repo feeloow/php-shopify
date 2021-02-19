@@ -79,6 +79,7 @@ use PHPShopify\Exception\SdkException;
  * @property-read CustomCollection $CustomCollection
  * @property-read Customer $Customer
  * @property-read CustomerSavedSearch $CustomerSavedSearch
+ * @property-read DeprecatedApiCalls $DeprecatedApiCalls
  * @property-read Discount $Discount
  * @property-read DiscountCode $DiscountCode
  * @property-read DraftOrder $DraftOrder
@@ -175,6 +176,7 @@ class ShopifySDK
         'CustomCollection',
         'Customer',
         'CustomerSavedSearch',
+        'DeprecatedApiCalls',
         'Discount',
         'DiscountCode',
         'DraftOrder',
